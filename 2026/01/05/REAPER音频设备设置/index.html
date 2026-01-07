@@ -4,16 +4,21 @@
   <meta charset="utf-8">
   
   
-  <title>阿白歌的博客</title>
+  <title>Reaper的音频设备设置 | 阿白歌的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="不定时分享笔记">
-<meta property="og:type" content="website">
-<meta property="og:title" content="阿白歌的博客">
-<meta property="og:url" content="https://xrxw.cc/index.html">
+  <meta name="description" content="REAPER 的音频设备设置在上一张中我们把 REAPER 的主程序以及SWS扩展和OSARA以及语言包安装完成了， 但是想要REAPER出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。 那我们就从本章开启REAPER的设置篇">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reaper的音频设备设置">
+<meta property="og:url" content="https://xrxw.cc/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/index.html">
 <meta property="og:site_name" content="阿白歌的博客">
-<meta property="og:description" content="不定时分享笔记">
+<meta property="og:description" content="REAPER 的音频设备设置在上一张中我们把 REAPER 的主程序以及SWS扩展和OSARA以及语言包安装完成了， 但是想要REAPER出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。 那我们就从本章开启REAPER的设置篇">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-01-04T16:51:08.000Z">
+<meta property="article:modified_time" content="2026-01-07T15:53:10.207Z">
 <meta property="article:author" content="本rong">
+<meta property="article:tag" content="reaper">
+<meta property="article:tag" content="混音">
+<meta property="article:tag" content="编曲">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="阿白歌的博客" type="application/atom+xml">
@@ -71,9 +76,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-REAPER音频设备设置" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-REAPER音频设备设置" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/" class="article-date">
   <time class="dt-published" datetime="2026-01-04T16:51:08.000Z" itemprop="datePublished">2026-01-05</time>
@@ -90,8 +93,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/">Reaper的音频设备设置</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Reaper的音频设备设置
     </h1>
   
 
@@ -102,11 +105,49 @@
         <h1 id="REAPER-的音频设备设置"><a href="#REAPER-的音频设备设置" class="headerlink" title="REAPER 的音频设备设置"></a>REAPER 的音频设备设置</h1><p>在上一张中我们把 <code>REAPER</code> 的主程序以及<code>SWS扩展</code>和<code>OSARA</code>以及<code>语言包</code>安装完成了，</p>
 <p>但是想要<code>REAPER</code>出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。</p>
 <p>那我们就从本章开启<code>REAPER</code>的设置篇</p>
-        
-          <p class="article-more-link">
-            <a href="/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/#more">Read More</a>
-          </p>
-        
+<span id="more"></span>
+
+<h1 id="REAPER-音频设置"><a href="#REAPER-音频设置" class="headerlink" title="REAPER 音频设置"></a>REAPER 音频设置</h1><p>当我们第一次启动<code>REAPER</code>的时候，在拉入音频测试播放时，他有可能<code>没有声音</code>,或者<code>有延迟</code>等一些问题。</p>
+<p>正确的设置<code>发声</code>装置可以解决这些问题，</p>
+<p>若你说我第一次打开<code>REAPER</code>就没有这些问题，那我在这里<code>恭喜你</code>，但建议还是检查下<code>音频</code>设置，他有可能有<code>独占</code>啥的，若没有最好了。</p>
+<hr>
+<h2 id="ASIO-声卡设置"><a href="#ASIO-声卡设置" class="headerlink" title="ASIO 声卡设置"></a>ASIO 声卡设置</h2><p>打开<code>REAPER</code>后，使用<code>CTRL</code>+<code>P</code>或者在<code>选项</code>菜单中进入<code>首选项</code></p>
+<p>在左边树视图这里往下拉到<code>音频</code>并展开，往下找到<code>设备</code>。</p>
+<p>这里就可以设置<code>音频</code>的发声设备了。</p>
+<p>若你有一张支持<code>ASIO</code>的<code>声卡</code>，在<code>音频系统``组合框</code>中选择<code>ASIO</code>。</p>
+<p>在<code>ASIO</code>驱动程序这里选择你的<code>声卡</code>。</p>
+<p>例如： </p>
+<p><code>音频系统</code>: 组合框 <code>ASIO</code></p>
+<p><code>ASIO</code> 驱动: 组合框 <code>Yamaha Steinberg USB ASIO</code></p>
+<p>这里对应的就是<code>雅马哈</code>的声卡。</p>
+<p>选择好声卡之后我们把<code>启用输入</code>勾选上。</p>
+<p>接下来设置<code>输入``输出</code></p>
+<p><code>注</code>:<code>REAPER</code>的<code>设置``项目</code>中，当你的<code>光标</code>或者<code>鼠标</code>停留在上面一会就会弹出相关<code>说明</code>，所以后面我就不<code>精细</code>的解释每个设置的说明了。</p>
+<p>在<code>输入``输出</code>四个<code>组合框</code>中，</p>
+<p><code>1</code>和<code>2</code>是<code>输入</code>，<code>3</code>和<code>4</code>是输出两两对应，</p>
+<p>所以我们在<code>1</code>和<code>3</code>中选择第一个<code>输入</code>和<code>输出</code>对应的通道。</p>
+<p>在<code>2</code>和<code>4</code>中选择最后一个<code>输入</code>和<code>输出</code>的通道，</p>
+<p>这样就包含你的声卡所有的<code>输入</code>和<code>输出</code>通道了。</p>
+<p>继续往后面有一个<code>ASIO</code>配置按钮，这里我们可以去设置声卡的<code>缓冲</code>和<code>采样率</code>等。</p>
+<hr>
+<h2 id="板卡设置"><a href="#板卡设置" class="headerlink" title="板卡设置"></a>板卡设置</h2><p>好了，上面就是<code>ASIO</code>声卡的<code>设置</code>。还有一种情况是没有<code>声卡</code>，我们需要设置哪个设备呢。</p>
+<p>在<code>音频系统</code>组合框处选择： <code>WASAPI</code></p>
+<p>为什么不选其他的<code>设备</code>？</p>
+<p>因为经我不专业的<code>测试</code>，其他的都会有一些<code>延迟</code>。</p>
+<p>在<code>模式</code>处选<code>共享</code>模式</p>
+<p><code>输入``输出</code>也只能默认了。</p>
+<p><code>输入</code>和<code>输出</code>通道： 2</p>
+<p>好了，你在把其他的<code>选项</code>设置一下，点击<code>确定</code></p>
+<hr>
+<p>咱们的<code>音频</code>设备就设置完成啦</p>
+<p>若想要测试有无<code>延迟</code>，可以启动<code>节拍器</code>点击<code>空格``播放</code>看看是否有<code>延迟</code>，</p>
+<p><code>节拍器</code>的启动快捷键是<code>CTRL</code>+<code>SHIFT</code>+<code>M</code></p>
+<p>记住他，以后用<code>节拍器</code>的时候还多。</p>
+<hr>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>好了，<code>音频</code>设备<code>设置</code>完成，下一张我们将从<code>常规</code>设置开始。</p>
+<p>补充一下，为什么不从<code>常规</code>设置开始呢，</p>
+<p>因为只有把<code>REAPER</code>设置出声了，才是<code>最重要</code>的。</p>
+
       
     </div>
     <footer class="article-footer">
@@ -119,109 +160,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-主程序及扩展下载" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E4%B8%8B%E8%BD%BD/" class="article-date">
-  <time class="dt-published" datetime="2026-01-04T16:51:08.000Z" itemprop="datePublished">2026-01-05</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/reaper/">reaper</a>►<a class="article-category-link" href="/categories/reaper/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">reaper 使用技巧</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/">reaper入门</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85/">reaper下载和安装</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E4%B8%8B%E8%BD%BD/">REAPER 主程序及扩展下载</a>
-    </h1>
+    <a href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E4%B8%8B%E8%BD%BD/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">REAPER 主程序及扩展下载</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="REAPER-及其个扩展下载"><a href="#REAPER-及其个扩展下载" class="headerlink" title="REAPER 及其个扩展下载"></a>REAPER 及其个扩展下载</h1><p>一文带你从0开始下载<code>REAPER</code> 主程序和 <code>SWS</code>扩展，<code>语言包</code>以及<code>OSARA</code>扩展。</p>
-        
-          <p class="article-more-link">
-            <a href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E4%B8%8B%E8%BD%BD/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xrxw.cc/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E4%B8%8B%E8%BD%BD/" data-id="cmk477vr10003ektp2e7x305g" data-title="REAPER 主程序及扩展下载" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reaper/" rel="tag">reaper</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B7%B7%E9%9F%B3/" rel="tag">混音</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E6%9B%B2/" rel="tag">编曲</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-主程序及扩展安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/" class="article-date">
-  <time class="dt-published" datetime="2026-01-04T16:51:08.000Z" itemprop="datePublished">2026-01-05</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/reaper/">reaper</a>►<a class="article-category-link" href="/categories/reaper/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">reaper 使用技巧</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/">reaper入门</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85/">reaper下载和安装</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/">Reaper 主程序及扩展安装</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="REAPER-主程序及扩展安装"><a href="#REAPER-主程序及扩展安装" class="headerlink" title="REAPER 主程序及扩展安装"></a>REAPER 主程序及扩展安装</h1><p>在这一张中，我将使用 <code>WINDOWS</code> 系统的安装方式，带大家把上文中下载的 <code>REAPER</code> 的主程序和其他扩展给安装了。</p>
-        
-          <p class="article-more-link">
-            <a href="/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xrxw.cc/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/" data-id="cmk477vr50006ektphyrlcmam" data-title="Reaper 主程序及扩展安装" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reaper/" rel="tag">reaper</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B7%B7%E9%9F%B3/" rel="tag">混音</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E6%9B%B2/" rel="tag">编曲</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
