@@ -120,6 +120,59 @@
       </tags>
   </entry>
   <entry>
+    <title>Reaper 常规设置</title>
+    <url>/2026/01/05/Reaper%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>上一张中我们把<code>REAPER</code>的<code>音频设备</code>设置完成了，这一张中我们从开始的<code>常规</code>设置开始说起。</p>
+<span id="more"></span>
+
+<h1 id="常规设置"><a href="#常规设置" class="headerlink" title="常规设置"></a>常规设置</h1><p>进入<code>首选项</code>，往上找到<code>常规</code></p>
+<p>在<code>常规</code>设置中，我们可以对<code>REAPER</code>的<code>语言</code>，打开时的<code>行为</code>，<code>最近工程</code>以及<code>导入导出</code>等设置进行设置。</p>
+<p>展开<code>常规</code>设置之后，下面可以对<code>撤销</code>行为，<code>路径</code>和<code>键盘</code>操作进行设置。我们从<code>常规</code>开始。</p>
+<h2 id="常规设置-1"><a href="#常规设置-1" class="headerlink" title="常规设置"></a>常规设置</h2><p>在<code>常规</code>这里往右，这里的第一个<code>组合框</code>可以选择你已经安装的<code>语言</code>，</p>
+<p>在<code>语言包选项</code>按钮这里，打开后我们可以自行选择一些设置启用或者直接默认。</p>
+<ol>
+<li>在菜单中将未翻译的文本显示在已翻译文本之后，</li>
+</ol>
+<p>需要<code>双语</code>显示<code>菜单</code>等可以勾选。仅限以安装的<code>语言</code>，默认<code>语言</code>就是<code>英文</code>。</p>
+<ol start="2">
+<li><p>鼠标悬停在已翻译<code>控件</code>上时显示<code>工具</code>提示，</p>
+</li>
+<li><p><code>鼠标</code>悬停时显示<code>控件</code> <code>ID</code>，</p>
+</li>
+</ol>
+<p>最后一个<code>下载语言包</code>。</p>
+<p>打开之后就会跳转到<a href="https://www.cockos.com/reaper/langpack/">LanguagePack</a><code>语言包</code>的下载页面，详见<code>下载</code>篇，按照说明<code>下载</code>即可</p>
+<p><code>导入</code>和<code>导出</code>后的<code>在启动时打开工程</code> 组合框，可以设置<code>REAPER</code>的启动行为。这里按需设置即可。</p>
+<p>后面有几个<code>复选框</code>的勾选设置，按需选择设置即可。</p>
+<p><code>最近工程</code>设置。列表处可以设置<code>最近工程</code>显示数量。</p>
+<p><code>最近工程显示</code>按钮，可以设置<code>最近工程</code>的<code>文件</code>名方式，以及<code>清除``最近工程</code>。</p>
+<p>当 <code>REAPER</code> 的<code>内存</code>使用量达到设定值时<code>发出警告</code>，内存有限的可以设置一下。</p>
+<p>后面是渲染文件时的<code>文件</code>名。</p>
+<p>最后是<code>高级 UI_系统调整</code>设置，可以设置<code>启动画面</code>，以及<code>CPU占用率</code>，<code>内存</code>等设置，设置需<code>谨慎</code></p>
+<h2 id="路径设置"><a href="#路径设置" class="headerlink" title="路径设置"></a>路径设置</h2><p>在路径设置这里我们可以设置，新工程的默认保存路径，渲染（其他DAW是导出）音视频的路径，录音时音频文件的保存路径。<br>他默认是在你的文件中，会占用你的C盘，建议都修改下。<br>下面使用新工程的默认保存路径举例说明怎样设置。<br>在你需要保存工程的磁盘下，新建保存工程的文件夹，可以嵌套。<br>在新工程默认保存路径旁边浏览按钮进行选择，也可以输入保存工程的路径。<br>如，我的保存路径是： E:\RP\工程<br>就可以点击浏览，找到 E 盘，找到 RP，找到 工程，点击确定即可，<br>或者直接在编辑框中直接输入路径： E:\RP\工程。<br>其他路径设置同上。</p>
+<p>路径设置完成，我们在左边往下找到： 键盘&#x2F;多点触控</p>
+<p>这里我们可以对键盘进行一些设置。</p>
+<p>录制时使用备用键盘区段 复选框，<br>可以单独给录音设置一组快捷键，让他跟其他操作分离开。</p>
+<p>防止 ALT 键聚焦主菜单 复选框，<br>如果你需要alt展开菜单就不需要选中，若你不需要使用alt展开菜单可以勾选上。</p>
+<p>允许在各种窗口中使用空格键进行导航 复选框，<br>若需要，可以勾选上。<br>下面的复选框同理，需要就勾选，不需要就不用管，默认即可。</p>
+<p>为操作分配键盘快捷键或更改现有快捷键 按钮<br>在这里面可以设置 Reaper 的快捷键及添加脚本等。</p>
+<p>好了上面就是键盘的需要设置的设置项。</p>
+<p>我们在回到最左边，网上有个撤销设置。我们可以根据需要添加什么撤销点进行勾选。</p>
+<p>以上就是本章的所有内容。</p>
+]]></content>
+      <categories>
+        <category>reaper</category>
+        <category>reaper 使用技巧</category>
+        <category>reaper入门</category>
+        <category>reaper设置</category>
+      </categories>
+      <tags>
+        <tag>reaper</tag>
+        <tag>混音</tag>
+        <tag>编曲</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>reaper 的下载及安装</title>
     <url>/2026/01/05/reaper/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
@@ -202,59 +255,6 @@
         <category>reaper 使用技巧</category>
         <category>reaper入门</category>
         <category>reaper下载和安装</category>
-      </categories>
-      <tags>
-        <tag>reaper</tag>
-        <tag>混音</tag>
-        <tag>编曲</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reaper 常规设置</title>
-    <url>/2026/01/05/Reaper%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>上一张中我们把<code>REAPER</code>的<code>音频设备</code>设置完成了，这一张中我们从开始的<code>常规</code>设置开始说起。</p>
-<span id="more"></span>
-
-<h1 id="常规设置"><a href="#常规设置" class="headerlink" title="常规设置"></a>常规设置</h1><p>进入<code>首选项</code>，往上找到<code>常规</code></p>
-<p>在<code>常规</code>设置中，我们可以对<code>REAPER</code>的<code>语言</code>，打开时的<code>行为</code>，<code>最近工程</code>以及<code>导入导出</code>等设置进行设置。</p>
-<p>展开<code>常规</code>设置之后，下面可以对<code>撤销</code>行为，<code>路径</code>和<code>键盘</code>操作进行设置。我们从<code>常规</code>开始。</p>
-<h2 id="常规设置-1"><a href="#常规设置-1" class="headerlink" title="常规设置"></a>常规设置</h2><p>在<code>常规</code>这里往右，这里的第一个<code>组合框</code>可以选择你已经安装的<code>语言</code>，</p>
-<p>在<code>语言包选项</code>按钮这里，打开后我们可以自行选择一些设置启用或者直接默认。</p>
-<ol>
-<li>在菜单中将未翻译的文本显示在已翻译文本之后，</li>
-</ol>
-<p>需要<code>双语</code>显示<code>菜单</code>等可以勾选。仅限以安装的<code>语言</code>，默认<code>语言</code>就是<code>英文</code>。</p>
-<ol start="2">
-<li><p>鼠标悬停在已翻译<code>控件</code>上时显示<code>工具</code>提示，</p>
-</li>
-<li><p><code>鼠标</code>悬停时显示<code>控件</code> <code>ID</code>，</p>
-</li>
-</ol>
-<p>最后一个<code>下载语言包</code>。</p>
-<p>打开之后就会跳转到<a href="https://www.cockos.com/reaper/langpack/">LanguagePack</a><code>语言包</code>的下载页面，详见<code>下载</code>篇，按照说明<code>下载</code>即可</p>
-<p><code>导入</code>和<code>导出</code>后的<code>在启动时打开工程</code> 组合框，可以设置<code>REAPER</code>的启动行为。这里按需设置即可。</p>
-<p>后面有几个<code>复选框</code>的勾选设置，按需选择设置即可。</p>
-<p><code>最近工程</code>设置。列表处可以设置<code>最近工程</code>显示数量。</p>
-<p><code>最近工程显示</code>按钮，可以设置<code>最近工程</code>的<code>文件</code>名方式，以及<code>清除``最近工程</code>。</p>
-<p>当 <code>REAPER</code> 的<code>内存</code>使用量达到设定值时<code>发出警告</code>，内存有限的可以设置一下。</p>
-<p>后面是渲染文件时的<code>文件</code>名。</p>
-<p>最后是<code>高级 UI_系统调整</code>设置，可以设置<code>启动画面</code>，以及<code>CPU占用率</code>，<code>内存</code>等设置，设置需<code>谨慎</code></p>
-<h2 id="路径设置"><a href="#路径设置" class="headerlink" title="路径设置"></a>路径设置</h2><p>在路径设置这里我们可以设置，新工程的默认保存路径，渲染（其他DAW是导出）音视频的路径，录音时音频文件的保存路径。<br>他默认是在你的文件中，会占用你的C盘，建议都修改下。<br>下面使用新工程的默认保存路径举例说明怎样设置。<br>在你需要保存工程的磁盘下，新建保存工程的文件夹，可以嵌套。<br>在新工程默认保存路径旁边浏览按钮进行选择，也可以输入保存工程的路径。<br>如，我的保存路径是： E:\RP\工程<br>就可以点击浏览，找到 E 盘，找到 RP，找到 工程，点击确定即可，<br>或者直接在编辑框中直接输入路径： E:\RP\工程。<br>其他路径设置同上。</p>
-<p>路径设置完成，我们在左边往下找到： 键盘&#x2F;多点触控</p>
-<p>这里我们可以对键盘进行一些设置。</p>
-<p>录制时使用备用键盘区段 复选框，<br>可以单独给录音设置一组快捷键，让他跟其他操作分离开。</p>
-<p>防止 ALT 键聚焦主菜单 复选框，<br>如果你需要alt展开菜单就不需要选中，若你不需要使用alt展开菜单可以勾选上。</p>
-<p>允许在各种窗口中使用空格键进行导航 复选框，<br>若需要，可以勾选上。<br>下面的复选框同理，需要就勾选，不需要就不用管，默认即可。</p>
-<p>为操作分配键盘快捷键或更改现有快捷键 按钮<br>在这里面可以设置 Reaper 的快捷键及添加脚本等。</p>
-<p>好了上面就是键盘的需要设置的设置项。</p>
-<p>我们在回到最左边，网上有个撤销设置。我们可以根据需要添加什么撤销点进行勾选。</p>
-<p>以上就是本章的所有内容。</p>
-]]></content>
-      <categories>
-        <category>reaper</category>
-        <category>reaper 使用技巧</category>
-        <category>reaper入门</category>
-        <category>reaper设置</category>
       </categories>
       <tags>
         <tag>reaper</tag>
