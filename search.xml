@@ -33,6 +33,68 @@ int main(void)&#123;
       </tags>
   </entry>
   <entry>
+    <title>Reaper的音频设备设置</title>
+    <url>/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="REAPER-的音频设备设置"><a href="#REAPER-的音频设备设置" class="headerlink" title="REAPER 的音频设备设置"></a>REAPER 的音频设备设置</h1><p>在上一张中我们把 <code>REAPER</code> 的主程序以及<code>SWS扩展</code>和<code>OSARA</code>以及<code>语言包</code>安装完成了，</p>
+<p>但是想要<code>REAPER</code>出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。</p>
+<p>那我们就从本章开启<code>REAPER</code>的设置篇</p>
+<span id="more"></span>
+
+<h1 id="REAPER-音频设置"><a href="#REAPER-音频设置" class="headerlink" title="REAPER 音频设置"></a>REAPER 音频设置</h1><p>当我们第一次启动<code>REAPER</code>的时候，在拉入音频测试播放时，他有可能<code>没有声音</code>,或者<code>有延迟</code>等一些问题。</p>
+<p>正确的设置<code>发声</code>装置可以解决这些问题，</p>
+<p>若你说我第一次打开<code>REAPER</code>就没有这些问题，那我在这里<code>恭喜你</code>，但建议还是检查下<code>音频</code>设置，他有可能有<code>独占</code>啥的，若没有最好了。</p>
+<hr>
+<h2 id="ASIO-声卡设置"><a href="#ASIO-声卡设置" class="headerlink" title="ASIO 声卡设置"></a>ASIO 声卡设置</h2><p>打开<code>REAPER</code>后，使用<code>CTRL</code>+<code>P</code>或者在<code>选项</code>菜单中进入<code>首选项</code></p>
+<p>在左边树视图这里往下拉到<code>音频</code>并展开，往下找到<code>设备</code>。</p>
+<p>这里就可以设置<code>音频</code>的发声设备了。</p>
+<p>若你有一张支持<code>ASIO</code>的<code>声卡</code>，在<code>音频系统``组合框</code>中选择<code>ASIO</code>。</p>
+<p>在<code>ASIO</code>驱动程序这里选择你的<code>声卡</code>。</p>
+<p>例如： </p>
+<p><code>音频系统</code>: 组合框 <code>ASIO</code></p>
+<p><code>ASIO</code> 驱动: 组合框 <code>Yamaha Steinberg USB ASIO</code></p>
+<p>这里对应的就是<code>雅马哈</code>的声卡。</p>
+<p>选择好声卡之后我们把<code>启用输入</code>勾选上。</p>
+<p>接下来设置<code>输入``输出</code></p>
+<p><code>注</code>:<code>REAPER</code>的<code>设置``项目</code>中，当你的<code>光标</code>或者<code>鼠标</code>停留在上面一会就会弹出相关<code>说明</code>，所以后面我就不<code>精细</code>的解释每个设置的说明了。</p>
+<p>在<code>输入``输出</code>四个<code>组合框</code>中，</p>
+<p><code>1</code>和<code>2</code>是<code>输入</code>，<code>3</code>和<code>4</code>是输出两两对应，</p>
+<p>所以我们在<code>1</code>和<code>3</code>中选择第一个<code>输入</code>和<code>输出</code>对应的通道。</p>
+<p>在<code>2</code>和<code>4</code>中选择最后一个<code>输入</code>和<code>输出</code>的通道，</p>
+<p>这样就包含你的声卡所有的<code>输入</code>和<code>输出</code>通道了。</p>
+<p>继续往后面有一个<code>ASIO</code>配置按钮，这里我们可以去设置声卡的<code>缓冲</code>和<code>采样率</code>等。</p>
+<hr>
+<h2 id="板卡设置"><a href="#板卡设置" class="headerlink" title="板卡设置"></a>板卡设置</h2><p>好了，上面就是<code>ASIO</code>声卡的<code>设置</code>。还有一种情况是没有<code>声卡</code>，我们需要设置哪个设备呢。</p>
+<p>在<code>音频系统</code>组合框处选择： <code>WASAPI</code></p>
+<p>为什么不选其他的<code>设备</code>？</p>
+<p>因为经我不专业的<code>测试</code>，其他的都会有一些<code>延迟</code>。</p>
+<p>在<code>模式</code>处选<code>共享</code>模式</p>
+<p><code>输入``输出</code>也只能默认了。</p>
+<p><code>输入</code>和<code>输出</code>通道： 2</p>
+<p>好了，你在把其他的<code>选项</code>设置一下，点击<code>确定</code></p>
+<hr>
+<p>咱们的<code>音频</code>设备就设置完成啦</p>
+<p>若想要测试有无<code>延迟</code>，可以启动<code>节拍器</code>点击<code>空格``播放</code>看看是否有<code>延迟</code>，</p>
+<p><code>节拍器</code>的启动快捷键是<code>CTRL</code>+<code>SHIFT</code>+<code>M</code></p>
+<p>记住他，以后用<code>节拍器</code>的时候还多。</p>
+<hr>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>好了，<code>音频</code>设备<code>设置</code>完成，下一张我们将从<code>常规</code>设置开始。</p>
+<p>补充一下，为什么不从<code>常规</code>设置开始呢，</p>
+<p>因为只有把<code>REAPER</code>设置出声了，才是<code>最重要</code>的。</p>
+]]></content>
+      <categories>
+        <category>reaper</category>
+        <category>reaper 使用技巧</category>
+        <category>reaper入门</category>
+        <category>reaper设置</category>
+        <category>reaper设备设置</category>
+      </categories>
+      <tags>
+        <tag>reaper</tag>
+        <tag>混音</tag>
+        <tag>编曲</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言简介</title>
     <url>/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="C语言简介"><a href="#C语言简介" class="headerlink" title="C语言简介"></a>C语言简介</h1><p>本章笔记将简单介绍<code>C语言</code>的起源和一些编程事项，以及一个<code>程序</code>示例。</p>
@@ -144,68 +206,6 @@ int main(void)&#123;
       </tags>
   </entry>
   <entry>
-    <title>Reaper的音频设备设置</title>
-    <url>/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="REAPER-的音频设备设置"><a href="#REAPER-的音频设备设置" class="headerlink" title="REAPER 的音频设备设置"></a>REAPER 的音频设备设置</h1><p>在上一张中我们把 <code>REAPER</code> 的主程序以及<code>SWS扩展</code>和<code>OSARA</code>以及<code>语言包</code>安装完成了，</p>
-<p>但是想要<code>REAPER</code>出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。</p>
-<p>那我们就从本章开启<code>REAPER</code>的设置篇</p>
-<span id="more"></span>
-
-<h1 id="REAPER-音频设置"><a href="#REAPER-音频设置" class="headerlink" title="REAPER 音频设置"></a>REAPER 音频设置</h1><p>当我们第一次启动<code>REAPER</code>的时候，在拉入音频测试播放时，他有可能<code>没有声音</code>,或者<code>有延迟</code>等一些问题。</p>
-<p>正确的设置<code>发声</code>装置可以解决这些问题，</p>
-<p>若你说我第一次打开<code>REAPER</code>就没有这些问题，那我在这里<code>恭喜你</code>，但建议还是检查下<code>音频</code>设置，他有可能有<code>独占</code>啥的，若没有最好了。</p>
-<hr>
-<h2 id="ASIO-声卡设置"><a href="#ASIO-声卡设置" class="headerlink" title="ASIO 声卡设置"></a>ASIO 声卡设置</h2><p>打开<code>REAPER</code>后，使用<code>CTRL</code>+<code>P</code>或者在<code>选项</code>菜单中进入<code>首选项</code></p>
-<p>在左边树视图这里往下拉到<code>音频</code>并展开，往下找到<code>设备</code>。</p>
-<p>这里就可以设置<code>音频</code>的发声设备了。</p>
-<p>若你有一张支持<code>ASIO</code>的<code>声卡</code>，在<code>音频系统``组合框</code>中选择<code>ASIO</code>。</p>
-<p>在<code>ASIO</code>驱动程序这里选择你的<code>声卡</code>。</p>
-<p>例如： </p>
-<p><code>音频系统</code>: 组合框 <code>ASIO</code></p>
-<p><code>ASIO</code> 驱动: 组合框 <code>Yamaha Steinberg USB ASIO</code></p>
-<p>这里对应的就是<code>雅马哈</code>的声卡。</p>
-<p>选择好声卡之后我们把<code>启用输入</code>勾选上。</p>
-<p>接下来设置<code>输入``输出</code></p>
-<p><code>注</code>:<code>REAPER</code>的<code>设置``项目</code>中，当你的<code>光标</code>或者<code>鼠标</code>停留在上面一会就会弹出相关<code>说明</code>，所以后面我就不<code>精细</code>的解释每个设置的说明了。</p>
-<p>在<code>输入``输出</code>四个<code>组合框</code>中，</p>
-<p><code>1</code>和<code>2</code>是<code>输入</code>，<code>3</code>和<code>4</code>是输出两两对应，</p>
-<p>所以我们在<code>1</code>和<code>3</code>中选择第一个<code>输入</code>和<code>输出</code>对应的通道。</p>
-<p>在<code>2</code>和<code>4</code>中选择最后一个<code>输入</code>和<code>输出</code>的通道，</p>
-<p>这样就包含你的声卡所有的<code>输入</code>和<code>输出</code>通道了。</p>
-<p>继续往后面有一个<code>ASIO</code>配置按钮，这里我们可以去设置声卡的<code>缓冲</code>和<code>采样率</code>等。</p>
-<hr>
-<h2 id="板卡设置"><a href="#板卡设置" class="headerlink" title="板卡设置"></a>板卡设置</h2><p>好了，上面就是<code>ASIO</code>声卡的<code>设置</code>。还有一种情况是没有<code>声卡</code>，我们需要设置哪个设备呢。</p>
-<p>在<code>音频系统</code>组合框处选择： <code>WASAPI</code></p>
-<p>为什么不选其他的<code>设备</code>？</p>
-<p>因为经我不专业的<code>测试</code>，其他的都会有一些<code>延迟</code>。</p>
-<p>在<code>模式</code>处选<code>共享</code>模式</p>
-<p><code>输入``输出</code>也只能默认了。</p>
-<p><code>输入</code>和<code>输出</code>通道： 2</p>
-<p>好了，你在把其他的<code>选项</code>设置一下，点击<code>确定</code></p>
-<hr>
-<p>咱们的<code>音频</code>设备就设置完成啦</p>
-<p>若想要测试有无<code>延迟</code>，可以启动<code>节拍器</code>点击<code>空格``播放</code>看看是否有<code>延迟</code>，</p>
-<p><code>节拍器</code>的启动快捷键是<code>CTRL</code>+<code>SHIFT</code>+<code>M</code></p>
-<p>记住他，以后用<code>节拍器</code>的时候还多。</p>
-<hr>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>好了，<code>音频</code>设备<code>设置</code>完成，下一张我们将从<code>常规</code>设置开始。</p>
-<p>补充一下，为什么不从<code>常规</code>设置开始呢，</p>
-<p>因为只有把<code>REAPER</code>设置出声了，才是<code>最重要</code>的。</p>
-]]></content>
-      <categories>
-        <category>reaper</category>
-        <category>reaper 使用技巧</category>
-        <category>reaper入门</category>
-        <category>reaper设置</category>
-        <category>reaper设备设置</category>
-      </categories>
-      <tags>
-        <tag>reaper</tag>
-        <tag>混音</tag>
-        <tag>编曲</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>reaper 的下载及安装</title>
     <url>/2026/01/05/reaper/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
@@ -219,76 +219,6 @@ int main(void)&#123;
         <tag>混音</tag>
         <tag>编曲</tag>
         <tag>reaper,</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reaper 主程序及扩展安装</title>
-    <url>/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="REAPER-主程序及扩展安装"><a href="#REAPER-主程序及扩展安装" class="headerlink" title="REAPER 主程序及扩展安装"></a>REAPER 主程序及扩展安装</h1><p>在这一张中，我将使用 <code>WINDOWS</code> 系统的安装方式，带大家把上文中下载的 <code>REAPER</code> 的主程序和其他扩展给安装了。</p>
-<span id="more"></span>
-
-<h2 id="Reaper-主程序的安装"><a href="#Reaper-主程序的安装" class="headerlink" title="Reaper 主程序的安装"></a>Reaper 主程序的安装</h2><p>首先打开你的下载目录，</p>
-<p>若找不到在哪里，可以打开浏览器的下载管理，点击 <code>在文件夹中显示</code>或者 <code>在文件夹中打开</code>具体看浏览器的显示。</p>
-<p><code>Reaper</code>主程序的文件名大概长这样子，</p>
-<p><code>reaper</code> <code>（版本号）</code> <code>_x64</code> 或 <code>（32）</code>-<code>install</code></p>
-<p>如果设置了显示文件扩展名后面还有<code>.exe</code>扩展名。</p>
-<p><code>Win11</code> <code>arm</code> 架构的<code>文件名</code>类似这样的。</p>
-<p><code>reaper</code> <code>（版本号）</code> <code>_win11_arm64ec</code>_<code>beta（测试）</code>-<code>install</code> <code>.exe（扩展名</code></p>
-<p>当然，若要显示扩展名，得在选项中显示文件扩展名。</p>
-<p>这里我们可以右键点击<code>以管理员身份运行</code></p>
-<p>打开之后跳出来的是<code>许可协议</code>，若有时间，有精力你可以把他看完。</p>
-<p>点击 <code>I Agree</code>按钮进入下一步。</p>
-<p>这里出现的是<code>选择安装路径</code>，可以默认安装，也可以选择自定义目录。</p>
-<p>若选择了其他路径务必要记清楚，后面有用。</p>
-<p>后面有个 <code>Portable install 复选框</code>，安装便携版复选框。</p>
-<p>若需要安装便携版勾选上他，安装目录务必选择其他路径，</p>
-<p>若你有安装版在<code>默认路径</code>下，当你安装<code>便携版</code>的时候会发生什么我也不知道，我没尝试过。</p>
-<p>大概什么也不会发生吧。</p>
-<p>点击 <code>next</code> 下一步按钮</p>
-<p>这里是选择安装组件，默认即可。</p>
-<p>点击<code>install</code>安装按钮开始安装。</p>
-<p>安装过程中你可以点击 <code>Show details</code> 查看安装详情。</p>
-<p>安装完成之后点击 <code>Close</code> 关闭按钮完成主程序的安装。</p>
-<p>这时他会提示你 <code>Reaper</code> 已经安装完毕，是否要运行，先点否。</p>
-<p>因为你要是第壹次安装 <code>REAPER</code> 的话，第一次启动可能会有点慢，安装完所有扩展之后在启动他即可。</p>
-<p>当 <code>REAPER</code> 主程序安装完成之后，<code>SWS</code> <code>OSARA</code> 和 <code>语言包</code> 的安装顺序就可以随意了，但安装完 <code>语言包</code>候他会启动 <code>REAPER</code>，建议把 <code>语言包</code> 放在最后安装。</p>
-<hr>
-<h2 id="SWS-的安装"><a href="#SWS-的安装" class="headerlink" title="SWS 的安装"></a>SWS 的安装</h2><p>其实跟 <code>REAPER</code> 的主程序安装几乎一样的，</p>
-<p>出现 <code>许可协议</code> 就点 <code>I Agree</code> 我同意按钮。</p>
-<p>路径选择不是<code>便携版</code>的就默认，继续点击<code>Next</code>下一步按钮。</p>
-<p>最后点击<code>Install</code> 安装按钮。</p>
-<p>完成安装。</p>
-<hr>
-<h2 id="OSARA-的安装。"><a href="#OSARA-的安装。" class="headerlink" title="OSARA 的安装。"></a>OSARA 的安装。</h2><p><code>OSARA</code> 的安装几乎同上，</p>
-<p>许可协议就点击 <code>I Agree</code> 我同意按钮。</p>
-<p>唯一不一样的是点击 <code>I Agree</code> 我同意之后接下来的安装见面是问你是要安装便携版还是标准安装。</p>
-<p>若安装了 <code>便携版</code> 的主程序，这里也要选择便携版，然后把目录选择到<code>便携版</code> 的路径下。</p>
-<p>选择路径之后就 <code>Install</code> 安装。</p>
-<p>选择<code>标准安装</code>之后点击下一步即可开始安装。</p>
-<p>安装完成之后<code>提示</code><br>Do you want to replace the existing key map with the OSARA key map?<br>New users are advised to answer Yes, which will completely replace your key map with a clean copy of the OSARA key map including all latest assignments.<br>Answering No will install OSARA w</p>
-<p>简单翻译就是： 你是否需要使用 <code>OSARA</code> 的<code>快捷键方案</code>，点击是就将 Reaper 的默认快捷键方案修改为 <code>OSARA</code> 的<code>快捷键方案</code>。</p>
-<p>若你是第壹次接触 <code>REAPER</code> 不妨点击<code>是</code>,这样可以免除你在刚开始打开<code>REAPER</code>之后一脸懵。</p>
-<p>如果你有自己的操作方案就<code>否</code>吧。</p>
-<hr>
-<h2 id="语言包的安装"><a href="#语言包的安装" class="headerlink" title="语言包的安装"></a>语言包的安装</h2><p>点击你在上文中下载的<code>语言包</code></p>
-<p>点击<code>确定</code></p>
-<p>在点一次<code>确定</code></p>
-<p>这时候就安装完成了，他开始启动<code>REAPER</code>，</p>
-<p>若你的<code>REAPER</code>是<code>第壹次</code>安装的话，很有可能会启动一段时间，不必紧张，去<code>泡杯茶</code>，<code>泡杯咖啡</code>，<code>上个厕所</code>，<code>洗个手</code>，<code>伸伸懒腰</code>。他在扫描他自己的插件。等待一段时间即可。</p>
-<p>好了，上面我们已经把<code>REAPER 主程序</code> 和 <code>SWS</code> 和 <code>OSARA</code> 以及<code>语言包</code>都安装完成。</p>
-<p>下一张我们将开始进入<code>REAPER</code>的<code>音频设备</code>设置，</p>
-<p>开始我们的<code>REAPER</code>之旅。</p>
-]]></content>
-      <categories>
-        <category>reaper</category>
-        <category>reaper 使用技巧</category>
-        <category>reaper入门</category>
-        <category>reaper下载和安装</category>
-      </categories>
-      <tags>
-        <tag>reaper</tag>
-        <tag>混音</tag>
-        <tag>编曲</tag>
       </tags>
   </entry>
   <entry>
@@ -364,5 +294,84 @@ int main(void)&#123;
         <tag>混音</tag>
         <tag>编曲</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Reaper 主程序及扩展安装</title>
+    <url>/2026/01/05/%E4%B8%BB%E7%A8%8B%E5%BA%8F%E5%8F%8A%E6%89%A9%E5%B1%95%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="REAPER-主程序及扩展安装"><a href="#REAPER-主程序及扩展安装" class="headerlink" title="REAPER 主程序及扩展安装"></a>REAPER 主程序及扩展安装</h1><p>在这一张中，我将使用 <code>WINDOWS</code> 系统的安装方式，带大家把上文中下载的 <code>REAPER</code> 的主程序和其他扩展给安装了。</p>
+<span id="more"></span>
+
+<h2 id="Reaper-主程序的安装"><a href="#Reaper-主程序的安装" class="headerlink" title="Reaper 主程序的安装"></a>Reaper 主程序的安装</h2><p>首先打开你的下载目录，</p>
+<p>若找不到在哪里，可以打开浏览器的下载管理，点击 <code>在文件夹中显示</code>或者 <code>在文件夹中打开</code>具体看浏览器的显示。</p>
+<p><code>Reaper</code>主程序的文件名大概长这样子，</p>
+<p><code>reaper</code> <code>（版本号）</code> <code>_x64</code> 或 <code>（32）</code>-<code>install</code></p>
+<p>如果设置了显示文件扩展名后面还有<code>.exe</code>扩展名。</p>
+<p><code>Win11</code> <code>arm</code> 架构的<code>文件名</code>类似这样的。</p>
+<p><code>reaper</code> <code>（版本号）</code> <code>_win11_arm64ec</code>_<code>beta（测试）</code>-<code>install</code> <code>.exe（扩展名</code></p>
+<p>当然，若要显示扩展名，得在选项中显示文件扩展名。</p>
+<p>这里我们可以右键点击<code>以管理员身份运行</code></p>
+<p>打开之后跳出来的是<code>许可协议</code>，若有时间，有精力你可以把他看完。</p>
+<p>点击 <code>I Agree</code>按钮进入下一步。</p>
+<p>这里出现的是<code>选择安装路径</code>，可以默认安装，也可以选择自定义目录。</p>
+<p>若选择了其他路径务必要记清楚，后面有用。</p>
+<p>后面有个 <code>Portable install 复选框</code>，安装便携版复选框。</p>
+<p>若需要安装便携版勾选上他，安装目录务必选择其他路径，</p>
+<p>若你有安装版在<code>默认路径</code>下，当你安装<code>便携版</code>的时候会发生什么我也不知道，我没尝试过。</p>
+<p>大概什么也不会发生吧。</p>
+<p>点击 <code>next</code> 下一步按钮</p>
+<p>这里是选择安装组件，默认即可。</p>
+<p>点击<code>install</code>安装按钮开始安装。</p>
+<p>安装过程中你可以点击 <code>Show details</code> 查看安装详情。</p>
+<p>安装完成之后点击 <code>Close</code> 关闭按钮完成主程序的安装。</p>
+<p>这时他会提示你 <code>Reaper</code> 已经安装完毕，是否要运行，先点否。</p>
+<p>因为你要是第壹次安装 <code>REAPER</code> 的话，第一次启动可能会有点慢，安装完所有扩展之后在启动他即可。</p>
+<p>当 <code>REAPER</code> 主程序安装完成之后，<code>SWS</code> <code>OSARA</code> 和 <code>语言包</code> 的安装顺序就可以随意了，但安装完 <code>语言包</code>候他会启动 <code>REAPER</code>，建议把 <code>语言包</code> 放在最后安装。</p>
+<hr>
+<h2 id="SWS-的安装"><a href="#SWS-的安装" class="headerlink" title="SWS 的安装"></a>SWS 的安装</h2><p>其实跟 <code>REAPER</code> 的主程序安装几乎一样的，</p>
+<p>出现 <code>许可协议</code> 就点 <code>I Agree</code> 我同意按钮。</p>
+<p>路径选择不是<code>便携版</code>的就默认，继续点击<code>Next</code>下一步按钮。</p>
+<p>最后点击<code>Install</code> 安装按钮。</p>
+<p>完成安装。</p>
+<hr>
+<h2 id="OSARA-的安装。"><a href="#OSARA-的安装。" class="headerlink" title="OSARA 的安装。"></a>OSARA 的安装。</h2><p><code>OSARA</code> 的安装几乎同上，</p>
+<p>许可协议就点击 <code>I Agree</code> 我同意按钮。</p>
+<p>唯一不一样的是点击 <code>I Agree</code> 我同意之后接下来的安装见面是问你是要安装便携版还是标准安装。</p>
+<p>若安装了 <code>便携版</code> 的主程序，这里也要选择便携版，然后把目录选择到<code>便携版</code> 的路径下。</p>
+<p>选择路径之后就 <code>Install</code> 安装。</p>
+<p>选择<code>标准安装</code>之后点击下一步即可开始安装。</p>
+<p>安装完成之后<code>提示</code><br>Do you want to replace the existing key map with the OSARA key map?<br>New users are advised to answer Yes, which will completely replace your key map with a clean copy of the OSARA key map including all latest assignments.<br>Answering No will install OSARA w</p>
+<p>简单翻译就是： 你是否需要使用 <code>OSARA</code> 的<code>快捷键方案</code>，点击是就将 Reaper 的默认快捷键方案修改为 <code>OSARA</code> 的<code>快捷键方案</code>。</p>
+<p>若你是第壹次接触 <code>REAPER</code> 不妨点击<code>是</code>,这样可以免除你在刚开始打开<code>REAPER</code>之后一脸懵。</p>
+<p>如果你有自己的操作方案就<code>否</code>吧。</p>
+<hr>
+<h2 id="语言包的安装"><a href="#语言包的安装" class="headerlink" title="语言包的安装"></a>语言包的安装</h2><p>点击你在上文中下载的<code>语言包</code></p>
+<p>点击<code>确定</code></p>
+<p>在点一次<code>确定</code></p>
+<p>这时候就安装完成了，他开始启动<code>REAPER</code>，</p>
+<p>若你的<code>REAPER</code>是<code>第壹次</code>安装的话，很有可能会启动一段时间，不必紧张，去<code>泡杯茶</code>，<code>泡杯咖啡</code>，<code>上个厕所</code>，<code>洗个手</code>，<code>伸伸懒腰</code>。他在扫描他自己的插件。等待一段时间即可。</p>
+<p>好了，上面我们已经把<code>REAPER 主程序</code> 和 <code>SWS</code> 和 <code>OSARA</code> 以及<code>语言包</code>都安装完成。</p>
+<p>下一张我们将开始进入<code>REAPER</code>的<code>音频设备</code>设置，</p>
+<p>开始我们的<code>REAPER</code>之旅。</p>
+]]></content>
+      <categories>
+        <category>reaper</category>
+        <category>reaper 使用技巧</category>
+        <category>reaper入门</category>
+        <category>reaper下载和安装</category>
+      </categories>
+      <tags>
+        <tag>reaper</tag>
+        <tag>混音</tag>
+        <tag>编曲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2026/05/27/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h1><p>Hello World!</p>
+<p>测试一下测试一下</p>
+<hr>
+<hr>
+<span id="more"></span>]]></content>
   </entry>
 </search>
