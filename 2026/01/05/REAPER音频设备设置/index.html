@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Reaper的音频设备设置 | 阿白歌的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="REAPER 的音频设备设置在上一张中我们把 REAPER 的主程序以及SWS扩展和OSARA以及语言包安装完成了， 但是想要REAPER出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。 那我们就从本章开启REAPER的设置篇">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reaper的音频设备设置">
+<meta property="og:url" content="https://xrxw.cc/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/index.html">
+<meta property="og:site_name" content="阿白歌的博客">
+<meta property="og:description" content="REAPER 的音频设备设置在上一张中我们把 REAPER 的主程序以及SWS扩展和OSARA以及语言包安装完成了， 但是想要REAPER出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。 那我们就从本章开启REAPER的设置篇">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-01-04T16:51:08.000Z">
+<meta property="article:modified_time" content="2026-01-07T15:56:02.858Z">
+<meta property="article:author" content="本rong">
+<meta property="article:tag" content="reaper">
+<meta property="article:tag" content="混音">
+<meta property="article:tag" content="编曲">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="阿白歌的博客" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">阿白歌的博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://xrxw.cc"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-REAPER音频设备设置" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/" class="article-date">
+  <time class="dt-published" datetime="2026-01-04T16:51:08.000Z" itemprop="datePublished">2026-01-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/reaper/">reaper</a>►<a class="article-category-link" href="/categories/reaper/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">reaper 使用技巧</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/">reaper入门</a>►<a class="article-category-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E8%AE%BE%E7%BD%AE/">reaper设置</a>►<a class="article-category-link" href="/categories/reaper%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/">reaper设备设置</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Reaper的音频设备设置
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="REAPER-的音频设备设置"><a href="#REAPER-的音频设备设置" class="headerlink" title="REAPER 的音频设备设置"></a>REAPER 的音频设备设置</h1><p>在上一张中我们把 <code>REAPER</code> 的主程序以及<code>SWS扩展</code>和<code>OSARA</code>以及<code>语言包</code>安装完成了，</p>
+<p>但是想要<code>REAPER</code>出声，我们还得把他的发生装置设置好他才能发出正确无误的声音。</p>
+<p>那我们就从本章开启<code>REAPER</code>的设置篇</p>
+<span id="more"></span>
+
+<h1 id="REAPER-音频设置"><a href="#REAPER-音频设置" class="headerlink" title="REAPER 音频设置"></a>REAPER 音频设置</h1><p>当我们第一次启动<code>REAPER</code>的时候，在拉入音频测试播放时，他有可能<code>没有声音</code>,或者<code>有延迟</code>等一些问题。</p>
+<p>正确的设置<code>发声</code>装置可以解决这些问题，</p>
+<p>若你说我第一次打开<code>REAPER</code>就没有这些问题，那我在这里<code>恭喜你</code>，但建议还是检查下<code>音频</code>设置，他有可能有<code>独占</code>啥的，若没有最好了。</p>
+<hr>
+<h2 id="ASIO-声卡设置"><a href="#ASIO-声卡设置" class="headerlink" title="ASIO 声卡设置"></a>ASIO 声卡设置</h2><p>打开<code>REAPER</code>后，使用<code>CTRL</code>+<code>P</code>或者在<code>选项</code>菜单中进入<code>首选项</code></p>
+<p>在左边树视图这里往下拉到<code>音频</code>并展开，往下找到<code>设备</code>。</p>
+<p>这里就可以设置<code>音频</code>的发声设备了。</p>
+<p>若你有一张支持<code>ASIO</code>的<code>声卡</code>，在<code>音频系统``组合框</code>中选择<code>ASIO</code>。</p>
+<p>在<code>ASIO</code>驱动程序这里选择你的<code>声卡</code>。</p>
+<p>例如： </p>
+<p><code>音频系统</code>: 组合框 <code>ASIO</code></p>
+<p><code>ASIO</code> 驱动: 组合框 <code>Yamaha Steinberg USB ASIO</code></p>
+<p>这里对应的就是<code>雅马哈</code>的声卡。</p>
+<p>选择好声卡之后我们把<code>启用输入</code>勾选上。</p>
+<p>接下来设置<code>输入``输出</code></p>
+<p><code>注</code>:<code>REAPER</code>的<code>设置``项目</code>中，当你的<code>光标</code>或者<code>鼠标</code>停留在上面一会就会弹出相关<code>说明</code>，所以后面我就不<code>精细</code>的解释每个设置的说明了。</p>
+<p>在<code>输入``输出</code>四个<code>组合框</code>中，</p>
+<p><code>1</code>和<code>2</code>是<code>输入</code>，<code>3</code>和<code>4</code>是输出两两对应，</p>
+<p>所以我们在<code>1</code>和<code>3</code>中选择第一个<code>输入</code>和<code>输出</code>对应的通道。</p>
+<p>在<code>2</code>和<code>4</code>中选择最后一个<code>输入</code>和<code>输出</code>的通道，</p>
+<p>这样就包含你的声卡所有的<code>输入</code>和<code>输出</code>通道了。</p>
+<p>继续往后面有一个<code>ASIO</code>配置按钮，这里我们可以去设置声卡的<code>缓冲</code>和<code>采样率</code>等。</p>
+<hr>
+<h2 id="板卡设置"><a href="#板卡设置" class="headerlink" title="板卡设置"></a>板卡设置</h2><p>好了，上面就是<code>ASIO</code>声卡的<code>设置</code>。还有一种情况是没有<code>声卡</code>，我们需要设置哪个设备呢。</p>
+<p>在<code>音频系统</code>组合框处选择： <code>WASAPI</code></p>
+<p>为什么不选其他的<code>设备</code>？</p>
+<p>因为经我不专业的<code>测试</code>，其他的都会有一些<code>延迟</code>。</p>
+<p>在<code>模式</code>处选<code>共享</code>模式</p>
+<p><code>输入``输出</code>也只能默认了。</p>
+<p><code>输入</code>和<code>输出</code>通道： 2</p>
+<p>好了，你在把其他的<code>选项</code>设置一下，点击<code>确定</code></p>
+<hr>
+<p>咱们的<code>音频</code>设备就设置完成啦</p>
+<p>若想要测试有无<code>延迟</code>，可以启动<code>节拍器</code>点击<code>空格``播放</code>看看是否有<code>延迟</code>，</p>
+<p><code>节拍器</code>的启动快捷键是<code>CTRL</code>+<code>SHIFT</code>+<code>M</code></p>
+<p>记住他，以后用<code>节拍器</code>的时候还多。</p>
+<hr>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>好了，<code>音频</code>设备<code>设置</code>完成，下一张我们将从<code>常规</code>设置开始。</p>
+<p>补充一下，为什么不从<code>常规</code>设置开始呢，</p>
+<p>因为只有把<code>REAPER</code>设置出声了，才是<code>最重要</code>的。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://xrxw.cc/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/" data-id="cmn2qpkv50006fwtp2ulpawvd" data-title="Reaper的音频设备设置" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reaper/" rel="tag">reaper</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B7%B7%E9%9F%B3/" rel="tag">混音</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E6%9B%B2/" rel="tag">编曲</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          C语言简介
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2026/01/05/Reaper%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AE/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Reaper 常规设置</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/reaper/">reaper</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/reaper/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">reaper 使用技巧</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">reaper 使用技巧</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/reaper-%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/reaper-%E5%85%A5%E9%97%A8/">reaper 入门</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/reaper%E5%85%A5%E9%97%A8/">reaper入门</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E4%B8%8B%E8%BD%BD/">reaper下载</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85/">reaper下载和安装</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/reaper%E5%85%A5%E9%97%A8/reaper%E8%AE%BE%E7%BD%AE/">reaper设置</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/reaper%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/">reaper设备设置</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/">编程笔记</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/C%E8%AF%AD%E8%A8%80/">C语言</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C%E8%AF%AD%E8%A8%80-%E7%AC%94%E8%AE%B0/" rel="tag">C语言 - 笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C%E8%AF%AD%E8%A8%80-%E7%AC%94%E8%AE%B0/" rel="tag">C语言, - 笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reaper/" rel="tag">reaper</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reaper/" rel="tag">reaper,</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B7%B7%E9%9F%B3/" rel="tag">混音</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E6%9B%B2/" rel="tag">编曲</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/C%E8%AF%AD%E8%A8%80-%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">C语言 - 笔记</a> <a href="/tags/C%E8%AF%AD%E8%A8%80-%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">C语言, - 笔记</a> <a href="/tags/reaper/" style="font-size: 15px;">reaper</a> <a href="/tags/reaper/" style="font-size: 10px;">reaper,</a> <a href="/tags/%E6%B7%B7%E9%9F%B3/" style="font-size: 20px;">混音</a> <a href="/tags/%E7%BC%96%E6%9B%B2/" style="font-size: 20px;">编曲</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">一月 2026</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E7%BB%93%E6%9E%84/">title</a>
+          </li>
+        
+          <li>
+            <a href="/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/">C语言简介</a>
+          </li>
+        
+          <li>
+            <a href="/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/">Reaper的音频设备设置</a>
+          </li>
+        
+          <li>
+            <a href="/2026/01/05/Reaper%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AE/">Reaper 常规设置</a>
+          </li>
+        
+          <li>
+            <a href="/2026/01/05/reaper/">reaper 的下载及安装</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2026 本rong<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
