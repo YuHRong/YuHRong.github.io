@@ -33,6 +33,64 @@ int main(void)&#123;
       </tags>
   </entry>
   <entry>
+    <title>C语言简介</title>
+    <url>/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="C语言简介"><a href="#C语言简介" class="headerlink" title="C语言简介"></a>C语言简介</h1><p>本章笔记将简单介绍<code>C语言</code>的起源和一些编程事项，以及一个<code>程序</code>示例。</p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><code>C语言</code>是<code>贝尔</code>实验室的<code>丹尼斯·里奇``(Dennis Ritch )</code>和<code>肯·汤普逊</code>(Ken Thompson )<code>在</code>1972&#96;年设计的有用的编程语言。</p>
+<p>他是在 <code>B语言</code> 的基础上设计的<code>编程</code>语言。</p>
+<span id="more"></span>
+
+<p><code>C语言</code>是<code>面向过程</code>的编程语言。</p>
+<p>他也是<code>编译型</code>语言。</p>
+<h2 id="C语言的优点"><a href="#C语言的优点" class="headerlink" title="C语言的优点"></a>C语言的优点</h2><ol>
+<li><p>强大的控制结构。</p>
+</li>
+<li><p>快速</p>
+</li>
+<li><p>代码紧凑——程序更小</p>
+</li>
+<li><p>可移植到其他计算机</p>
+</li>
+</ol>
+<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p><code>指针</code>的使用是难以察觉的，只有在<code>使用</code>的过程中<code>多加小心</code>，才能<code>避免</code>。</p>
+<h2 id="使用C语言的七个步骤"><a href="#使用C语言的七个步骤" class="headerlink" title="使用C语言的七个步骤"></a>使用C语言的七个步骤</h2><ol>
+<li>定义程序目标</li>
+</ol>
+<p>首先用简短的语句描述问题。</p>
+<p>想要程序做什么？</p>
+<p>程序需要哪些信息？</p>
+<p>要进行哪些控制和计算？</p>
+<p>程序要报告什么信息？</p>
+<ol>
+<li>设计程序</li>
+</ol>
+<p>怎样设计用户见面。</p>
+<p>怎样组织程序。？</p>
+<p>程序的目标用户是？</p>
+<p>在<code>程序</code>（还可能是辅助文件）<code>中如何表示</code>数据？</p>
+<p>用什么方法<code>处理</code>数据？</p>
+<ol>
+<li>编写代码</li>
+</ol>
+<p>这一步就是将你<code>设计的程序</code>通过<code>代码</code>来实现。</p>
+<p>在编写<code>代码</code>时，要记得添加<code>注释</code>。</p>
+<h2 id="编程机制"><a href="#编程机制" class="headerlink" title="编程机制"></a>编程机制</h2><p>C是可移植性语言，</p>
+<p>因此可以在许多环境中使用，</p>
+<p>包括<code>UNIX</code>、<code>Linux</code>、<code>MS-DOS（一些人仍在使用）、</code>Windows<code>和</code>Macintosh OS。</p>
+<h2 id="程序示例"><a href="#程序示例" class="headerlink" title="程序示例"></a>程序示例</h2><p>hello.c</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其中， <code>hello</code> 为文件名， <code>.c</code> 为扩展名。 <code>#include</code> 为包含<code>头文件</code>，头文件在后面的<code>小于&lt;</code>大于&gt;<code>中，上例的头文件就是： </code>stdio.h&#96;。</p>
+]]></content>
+      <categories>
+        <category>编程笔记</category>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>C语言 - 笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Reaper的音频设备设置</title>
     <url>/2026/01/05/REAPER%E9%9F%B3%E9%A2%91%E8%AE%BE%E5%A4%87%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="REAPER-的音频设备设置"><a href="#REAPER-的音频设备设置" class="headerlink" title="REAPER 的音频设备设置"></a>REAPER 的音频设备设置</h1><p>在上一张中我们把 <code>REAPER</code> 的主程序以及<code>SWS扩展</code>和<code>OSARA</code>以及<code>语言包</code>安装完成了，</p>
@@ -95,80 +153,6 @@ int main(void)&#123;
       </tags>
   </entry>
   <entry>
-    <title>reaper 的下载及安装</title>
-    <url>/2026/01/05/reaper/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      <categories>
-        <category>reaper 使用技巧</category>
-        <category>reaper 入门</category>
-        <category>reaper入门</category>
-        <category>reaper下载</category>
-      </categories>
-      <tags>
-        <tag>混音</tag>
-        <tag>编曲</tag>
-        <tag>reaper,</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C语言简介</title>
-    <url>/2026/01/05/C%E8%AF%AD%E8%A8%80%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="C语言简介"><a href="#C语言简介" class="headerlink" title="C语言简介"></a>C语言简介</h1><p>本章笔记将简单介绍<code>C语言</code>的起源和一些编程事项，以及一个<code>程序</code>示例。</p>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><code>C语言</code>是<code>贝尔</code>实验室的<code>丹尼斯·里奇``(Dennis Ritch )</code>和<code>肯·汤普逊</code>(Ken Thompson )<code>在</code>1972&#96;年设计的有用的编程语言。</p>
-<p>他是在 <code>B语言</code> 的基础上设计的<code>编程</code>语言。</p>
-<span id="more"></span>
-
-<p><code>C语言</code>是<code>面向过程</code>的编程语言。</p>
-<p>他也是<code>编译型</code>语言。</p>
-<h2 id="C语言的优点"><a href="#C语言的优点" class="headerlink" title="C语言的优点"></a>C语言的优点</h2><ol>
-<li><p>强大的控制结构。</p>
-</li>
-<li><p>快速</p>
-</li>
-<li><p>代码紧凑——程序更小</p>
-</li>
-<li><p>可移植到其他计算机</p>
-</li>
-</ol>
-<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p><code>指针</code>的使用是难以察觉的，只有在<code>使用</code>的过程中<code>多加小心</code>，才能<code>避免</code>。</p>
-<h2 id="使用C语言的七个步骤"><a href="#使用C语言的七个步骤" class="headerlink" title="使用C语言的七个步骤"></a>使用C语言的七个步骤</h2><ol>
-<li>定义程序目标</li>
-</ol>
-<p>首先用简短的语句描述问题。</p>
-<p>想要程序做什么？</p>
-<p>程序需要哪些信息？</p>
-<p>要进行哪些控制和计算？</p>
-<p>程序要报告什么信息？</p>
-<ol>
-<li>设计程序</li>
-</ol>
-<p>怎样设计用户见面。</p>
-<p>怎样组织程序。？</p>
-<p>程序的目标用户是？</p>
-<p>在<code>程序</code>（还可能是辅助文件）<code>中如何表示</code>数据？</p>
-<p>用什么方法<code>处理</code>数据？</p>
-<ol>
-<li>编写代码</li>
-</ol>
-<p>这一步就是将你<code>设计的程序</code>通过<code>代码</code>来实现。</p>
-<p>在编写<code>代码</code>时，要记得添加<code>注释</code>。</p>
-<h2 id="编程机制"><a href="#编程机制" class="headerlink" title="编程机制"></a>编程机制</h2><p>C是可移植性语言，</p>
-<p>因此可以在许多环境中使用，</p>
-<p>包括<code>UNIX</code>、<code>Linux</code>、<code>MS-DOS（一些人仍在使用）、</code>Windows<code>和</code>Macintosh OS。</p>
-<h2 id="程序示例"><a href="#程序示例" class="headerlink" title="程序示例"></a>程序示例</h2><p>hello.c</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>其中， <code>hello</code> 为文件名， <code>.c</code> 为扩展名。 <code>#include</code> 为包含<code>头文件</code>，头文件在后面的<code>小于&lt;</code>大于&gt;<code>中，上例的头文件就是： </code>stdio.h&#96;。</p>
-]]></content>
-      <categories>
-        <category>编程笔记</category>
-        <category>C语言</category>
-      </categories>
-      <tags>
-        <tag>C语言 - 笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Reaper 常规设置</title>
     <url>/2026/01/05/Reaper%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>上一张中我们把<code>REAPER</code>的<code>音频设备</code>设置完成了，这一张中我们从开始的<code>常规</code>设置开始说起。</p>
@@ -219,6 +203,22 @@ int main(void)&#123;
         <tag>reaper</tag>
         <tag>混音</tag>
         <tag>编曲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>reaper 的下载及安装</title>
+    <url>/2026/01/05/reaper/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      <categories>
+        <category>reaper 使用技巧</category>
+        <category>reaper 入门</category>
+        <category>reaper入门</category>
+        <category>reaper下载</category>
+      </categories>
+      <tags>
+        <tag>混音</tag>
+        <tag>编曲</tag>
+        <tag>reaper,</tag>
       </tags>
   </entry>
   <entry>
@@ -370,8 +370,9 @@ int main(void)&#123;
     <url>/2026/05/28/%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h1><hr>
 <hr>
-<h2 id="网络推送测试"><a href="#网络推送测试" class="headerlink" title="网络推送测试"></a>网络推送测试</h2><p>1234567890</p>
-<hr>
+<h2 id="网络推送测试"><a href="#网络推送测试" class="headerlink" title="网络推送测试"></a>网络推送测试</h2><h2 id="测试1代标签"><a href="#测试1代标签" class="headerlink" title="测试1代标签"></a>测试1代标签</h2><p>进入<a href="http://reaper.fm/download.php">Download下载页面</a></p>
+<h2 id="测试2带括号"><a href="#测试2带括号" class="headerlink" title="测试2带括号"></a>测试2带括号</h2><p>(<a href="http://reaper.fm/download.php">http://reaper.fm/download.php</a>)</p>
+<h2 id="测试3纯链接"><a href="#测试3纯链接" class="headerlink" title="测试3纯链接"></a>测试3纯链接</h2><p><a href="http://reaper.fm/download.php%E8%BF%9B%E5%85%A5[Download%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2]">http://reaper.fm/download.php进入[Download下载页面]</a></p>
 ]]></content>
   </entry>
 </search>
